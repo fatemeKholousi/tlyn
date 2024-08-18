@@ -1,0 +1,118 @@
+body{
+  background-color: azure;
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #646cffaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #888;
+}
+
+
+.buying-tab-container{
+  display: flex;
+  gap:1rem;
+}
+
+.buy-form{
+  width: 100%;
+  color:black;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.buying-tab{
+  cursor: pointer;
+  border:1px solid black;
+  padding:1rem;
+  border-radius: 12px;
+}
+
+
+
+
+
+.package-table-wrapper {
+  margin: 1rem 0;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  background-color: white;
+  border-radius: 1rem;
+  padding:2.5rem 2.5rem 2.5rem 3.5rem;
+  min-width:300px ;
+  
+}
+
+.package-table-wrapper .rc-table-cell {
+  text-align: center;
+  font-size: 1rem;
+}
+.package-table-wrapper .rc-table-thead {
+  height: 50px;
+}
+
+.package-table-wrapper tr.rc-table-row.rc-table-row-level-0 {
+  border: 1px solid black;
+  height: 40px;
+}
+
+.package-table-wrapper p{
+  font-size: 20px;
+  color:black;
+}
+.package-table-wrapper .package-table{
+  display: flex;
+  justify-content: center;
+  border-collapse: separate;
+  border: 1px solid rgba(235, 235, 235, 1);
+  border-radius: 10px;
+  font-size: 0.85rem;
+  padding: 20px;
+  color:rgba(129, 129, 129, 1);
+  overflow-x: scroll;
+}
+.package-table-wrapper .package-table button {
+  background-color: rgba(253, 200, 22, 1);
+  color: white;
+  width: 79px;
+  height: 29px;
+  border: none;
+  border-radius: 5px;
+}
+
+.price-based-tab{
+  width: 90%;
+  text-align: right;
+}
