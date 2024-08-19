@@ -10,6 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "num2persian": "^3.2.2",
     "rc-table": "^7.47.3",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
